@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ja" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>お問い合わせ</title>
+  <meta name="description" content="">
+  <!-- ここからogp -->
+  <meta property="og:url" content=" ページの URL" />
+  <meta property="og:type" content=" ページの種類" />
+  <!--website /blog 下層→article-->
+  <meta property="og:title" content=" ページの タイトル" />
+  <meta property="og:description" content=" ページのディスクリプション" />
+  <meta property="og:site_name" content="サイト名" />
+  <meta property="og:image" content=" サムネイル画像の URL" />
+  <!--//OGPここまで-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" href="../css/contact.css">
+</head>
+<body>
+  <!-- header -->
+  <header class="header">
+    <!-- header__inner -->
+    <div class="header__inner">
+      <h1 class="header-logo"><a href="../">Cresta Design</a></h1>
+      <nav class="header-nav">
+        <ul class="header-nav__list">
+          <li class="header-nav__item"><a href="">Concept</a></li>
+          <li class="header-nav__item"><a href="">Service</a></li>
+          <li class="header-nav__item"><a href="">Works</a></li>
+          <li class="header-nav__item"><a href="./">Contact </a></li>
+        </ul>
+      </nav>
+      <!-- menu-btn -->
+      <div class="menu-btn">
+        <span class="menu-btn__bar menu-btn__top"></span>
+        <span class="menu-btn__bar menu-btn__mid"></span>
+        <span class="menu-btn__bar menu-btn__bottom"></span>
+      </div>
+      <!-- /menu-btn -->
+    </div>
+    <!-- /header__inner -->
+  </header>
+  <!-- /header -->
+  
+  <!-- main -->
+  <main>
+    <!-- page-wrapper -->
+    <div class="page-title-wrapper">
+      <h2 class="page-title-wrapper__title">Contact</h2>
+      <p class="page-title-wrapper__bottom">Contact us</p>
+    </div>
+    <!-- /page-wrapper -->
+
+    <!-- form -->
+    <form action="" class="form">
+      <ul class="form__list">
+        <li class="form__item">
+          <label for="" class="form__label">お問い合わせ内容</label>
+          <ul class="checkbox-list">
+            <li class="checkbox-item">
+              <input type="checkbox" class="checkbox" id="document">
+              <label for="document">資料請求</label>
+            </li>
+            <li class="checkbox-item">
+              <input type="checkbox" class="checkbox" id="phone">
+              <label for="phone">お電話でのご相談を希望</label>
+            </li>
+            <li class="checkbox-item">
+              <input type="checkbox" class="checkbox" id="application">
+              <label for="application">申し込み</label>
+            </li>
+          </ul>
+        </li>
+        <li class="form__item">
+          <label for="" class="form__label">担当者名</label>
+          <input type="text" class="form__text">
+        </li>
+        <li class="form__item">
+          <label for="" class="form__label">電話番号</label>
+          <input type="text" class="form__text">
+        </li>
+        <li class="form__item">
+          <label for="" class="form__label">メールアドレス</label>
+          <input type="text" class="form__text">
+        </li>
+        <li class="form__item">
+          <label for="" class="form__label">その他</label>
+          <textarea name="" id="" cols="30" rows="10" class="form__textarea"></textarea>
+        </li>
+      </ul>
+      <input type="submit" value="Submit" class="submit-btn">
+
+    </form>
+    <!-- /form -->
+  </main>
+  <!-- //main -->
+
+  <!-- footer -->
+  <footer class="footer">
+    <small class="footer__text">&copy;cresta.design all rights reserved</small>
+  </footer>
+  <!-- //footer -->
+
+  <!-- jQuery読み込み -->
+  <script src="https://code.jquery.com/jquery-1.12.4.js"
+  integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+  crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js" integrity="sha256-DI6NdAhhFRnO2k51mumYeDShet3I8AKCQf/tf7ARNhI=" crossorigin="anonymous"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>

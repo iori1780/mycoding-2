@@ -1,0 +1,46 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Yu Gothic", "Meiryo", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+/*-----------------
+変数
+-----------------*/
+
+// カラー設定
+$color-black: #171717;
+
+$color-light-black: #282F35;
+
+$color-white: #fff;
+
+$color-yellow: #F7D43F;
+
+
+/*-----------------
+レスポンシブ
+-----------------*/
+
+//ブレイクポイント
+$tab: 959px;
+$mb: 768px;
+
+//タブレット
+@mixin tab {
+  @media screen and(max-width: $tab) {
+    @content;
+  }
+}
+//スマホ
+@mixin sm {
+  @media screen and(max-width: $mb) {
+    @content;
+  }
+}
